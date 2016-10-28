@@ -297,6 +297,7 @@
 				F2466F5C1DC2098E00A761AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
