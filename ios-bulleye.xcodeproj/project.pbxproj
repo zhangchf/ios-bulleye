@@ -13,6 +13,7 @@
 		F2466F531DC2098E00A761AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2466F521DC2098E00A761AA /* Assets.xcassets */; };
 		F2466F561DC2098E00A761AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */; };
 		F2C759111DDAD5DA0025A644 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C759101DDAD5DA0025A644 /* AboutViewController.swift */; };
+		F2C759131DDB04BA0025A644 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F2C759121DDB04BA0025A644 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F2466F551DC2098E00A761AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2466F571DC2098E00A761AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C759101DDAD5DA0025A644 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F2C759121DDB04BA0025A644 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F2466F4A1DC2098E00A761AA /* ios-bulleye */ = {
 			isa = PBXGroup;
 			children = (
+				F2C759121DDB04BA0025A644 /* BullsEye.html */,
 				F2466F4B1DC2098E00A761AA /* AppDelegate.swift */,
 				F2466F4D1DC2098E00A761AA /* ViewController.swift */,
 				F2466F4F1DC2098E00A761AA /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2466F561DC2098E00A761AA /* LaunchScreen.storyboard in Resources */,
+				F2C759131DDB04BA0025A644 /* BullsEye.html in Resources */,
 				F2466F531DC2098E00A761AA /* Assets.xcassets in Resources */,
 				F2466F511DC2098E00A761AA /* Main.storyboard in Resources */,
 			);
