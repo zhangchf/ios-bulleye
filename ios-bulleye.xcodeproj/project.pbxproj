@@ -12,6 +12,7 @@
 		F2466F511DC2098E00A761AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2466F4F1DC2098E00A761AA /* Main.storyboard */; };
 		F2466F531DC2098E00A761AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2466F521DC2098E00A761AA /* Assets.xcassets */; };
 		F2466F561DC2098E00A761AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */; };
+		F2C759111DDAD5DA0025A644 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C759101DDAD5DA0025A644 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F2466F521DC2098E00A761AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2466F551DC2098E00A761AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2466F571DC2098E00A761AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C759101DDAD5DA0025A644 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F2466F521DC2098E00A761AA /* Assets.xcassets */,
 				F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */,
 				F2466F571DC2098E00A761AA /* Info.plist */,
+				F2C759101DDAD5DA0025A644 /* AboutViewController.swift */,
 			);
 			path = "ios-bulleye";
 			sourceTree = "<group>";
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Chaofan Zhang";
 				TargetAttributes = {
 					F2466F471DC2098E00A761AA = {
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C759111DDAD5DA0025A644 /* AboutViewController.swift in Sources */,
 				F2466F4E1DC2098E00A761AA /* ViewController.swift in Sources */,
 				F2466F4C1DC2098E00A761AA /* AppDelegate.swift in Sources */,
 			);
@@ -181,6 +185,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +235,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
