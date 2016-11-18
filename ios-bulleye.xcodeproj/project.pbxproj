@@ -11,9 +11,9 @@
 		F2466F4E1DC2098E00A761AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2466F4D1DC2098E00A761AA /* ViewController.swift */; };
 		F2466F511DC2098E00A761AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2466F4F1DC2098E00A761AA /* Main.storyboard */; };
 		F2466F531DC2098E00A761AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2466F521DC2098E00A761AA /* Assets.xcassets */; };
-		F2466F561DC2098E00A761AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */; };
 		F2C759111DDAD5DA0025A644 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C759101DDAD5DA0025A644 /* AboutViewController.swift */; };
 		F2C759131DDB04BA0025A644 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F2C759121DDB04BA0025A644 /* BullsEye.html */; };
+		F2C759171DDEE9D10025A644 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C759161DDEE9D10025A644 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		F2466F4D1DC2098E00A761AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2466F501DC2098E00A761AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2466F521DC2098E00A761AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2466F551DC2098E00A761AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2466F571DC2098E00A761AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C759101DDAD5DA0025A644 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F2C759121DDB04BA0025A644 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		F2C759161DDEE9D10025A644 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +58,12 @@
 		F2466F4A1DC2098E00A761AA /* ios-bulleye */ = {
 			isa = PBXGroup;
 			children = (
+				F2C759161DDEE9D10025A644 /* Default-568h@2x.png */,
 				F2C759121DDB04BA0025A644 /* BullsEye.html */,
 				F2466F4B1DC2098E00A761AA /* AppDelegate.swift */,
 				F2466F4D1DC2098E00A761AA /* ViewController.swift */,
 				F2466F4F1DC2098E00A761AA /* Main.storyboard */,
 				F2466F521DC2098E00A761AA /* Assets.xcassets */,
-				F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */,
 				F2466F571DC2098E00A761AA /* Info.plist */,
 				F2C759101DDAD5DA0025A644 /* AboutViewController.swift */,
 			);
@@ -129,8 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2466F561DC2098E00A761AA /* LaunchScreen.storyboard in Resources */,
 				F2C759131DDB04BA0025A644 /* BullsEye.html in Resources */,
+				F2C759171DDEE9D10025A644 /* Default-568h@2x.png in Resources */,
 				F2466F531DC2098E00A761AA /* Assets.xcassets in Resources */,
 				F2466F511DC2098E00A761AA /* Main.storyboard in Resources */,
 			);
@@ -158,14 +158,6 @@
 				F2466F501DC2098E00A761AA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F2466F541DC2098E00A761AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2466F551DC2098E00A761AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -268,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "ios-bulleye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangchf.ios-bulleye";
@@ -280,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "ios-bulleye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangchf.ios-bulleye";
